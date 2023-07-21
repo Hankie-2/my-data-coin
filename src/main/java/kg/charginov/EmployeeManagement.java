@@ -39,7 +39,6 @@ public class EmployeeManagement {
         employees.add(new Employee(
                 count++,name,age,department
         ));
-        System.out.println(employees);
     }
 
     public void removeEmployee(int id){
